@@ -1,7 +1,8 @@
 import streamlit as st
 import pandas as pd
 
-st.title("Crops")
+
+
 crops=pd.read_csv("df_crops.csv").set_index("Produce_Variety")
 
 
